@@ -1,11 +1,36 @@
 body {
 	background-color: WhiteSmoke;
 }
-header {
+
+#head {
 	text-align: center;
+	/*margin: 0;*/
+	border: 1px solid #000;
 }
 
 #grid {
     background-color: white;
 	padding: 1%;
+	margin: 0% 2%;
 }
+
+#gridTitle {
+	text-align: center;
+	margin: 0;
+	border: 1px solid #000;
+}
+
+ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    vertical-align: top;
+	width: 150px;
+    min-height: 150px;
+    border: 1px solid #000;
+	margin: 5px;
+}
+
