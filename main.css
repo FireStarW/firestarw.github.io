@@ -8,29 +8,40 @@ body {
 	border: 1px solid #000;
 }
 
-#grid {
-    background-color: white;
-	padding: 1%;
-	margin: 0% 2%;
-}
-
 #gridTitle {
 	text-align: center;
 	margin: 0;
 	border: 1px solid #000;
+	visibility: hidden;
 }
 
-ul {
-    margin: 0 auto;
-    text-align: center;
+
+
+.grid-container {
+  	display: inline-grid;
+	justify-content: center;
+	/*margin: 1% 1% 1% 6%;*/
+	/*grid-template-rows: auto auto; */
+  	grid-template-columns: auto auto auto;
+	grid-auto-rows: 100px;
+ 	background-color: white;
+  	padding: 10px;
+	grid-gap: 1px;
+	height: 100%;
+ 	width: 100%;
 }
 
-li {
-    display: inline-block;
-    vertical-align: top;
-	width: 150px;
-    min-height: 150px;
-    border: 1px solid #000;
-	margin: 5px;
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+ 	border: 1px solid rgba(0, 0, 0, 0.8);
+  	padding: 20px;
+  	font-size: 30px;
+	font-family: sans-serif;
+  	text-align: center;
+	align-items: center;
 }
 
+footer {
+	text-align: center;
+	font-size: 10px;
+}
