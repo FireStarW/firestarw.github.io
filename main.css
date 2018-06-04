@@ -19,17 +19,22 @@ body {
 	background-image: url("img/bg.jpg");
 }
 
-header {
-	 margin: auto;
-	 width: 10%;
-	 padding: 1px;
-
-}
 
 .spacer {
     height: 10px;
     line-height: 0;
 	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.header-flex {
+	  display: flex;
+	  /*margin: auto;*/
+	  /*width: 10%;
+	  padding: 0px;*/
+	justify-content: center;
+	/*align-items: center;*/
+	
+	
 }
 
 .header-grid {
@@ -48,6 +53,15 @@ header {
  	width: auto;
 }
 
+.header-links{
+	align-self: flex-end;
+}
+
+#logo-div{
+	margin-left: 46%;
+    margin-right: auto;
+}
+
 .header-grid-item {
 	background-color: WhiteSmoke;
  	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
@@ -64,14 +78,14 @@ header {
 #fsw-logo {
 	max-width: 40%;
     height: auto;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	/*display: block;*/
+    /*margin-left: 100%;
+    margin-right: auto;*/
 }
 
-#other {
-	display:inline;
-	float: right;
+.right-link {
+	/*display:inline;*/
+	/*float: right;*/
 	padding: 0px 2px;
 	font-size: 10px;
 	background-color:WhiteSmoke;
@@ -121,6 +135,9 @@ header {
 }
 
 footer {
+	position: absolute;
+  	bottom: 0;
+    width: 99%;
 	color: WhiteSmoke;
 	text-align: center;
 	font-size: 10px;
