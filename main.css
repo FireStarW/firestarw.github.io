@@ -23,7 +23,36 @@ header {
 	 margin: auto;
 	 width: 10%;
 	 padding: 1px;
+
 }
+.header-grid {
+  	display: inline-grid;
+	/*justify-content: center;*/
+	margin: 0 45%;
+	/*grid-template-rows: auto auto; */
+  	grid-template-columns: auto auto;
+	/*grid-column-gap: 30%;*/
+	/*column-gap: 30%;*/
+	/*grid-auto-rows: 1fr;*/
+ 	/*background-color: WhiteSmoke;*/
+  	/*padding: 10px;*/
+	grid-gap: 3% 5%;
+	height: 50%;
+ 	width: auto;
+}
+
+.header-grid-item {
+	background-color: WhiteSmoke;
+ 	/*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  	padding: 20px;
+  	/*font-size: 12px;*/
+	/*font-family: sans-serif;*/
+  	/*text-align: center;*/
+	align-items: center;
+	height: 40%;
+ 	width: 40%;
+}
+
 
 #fsw-logo {
 	max-width: 40%;
