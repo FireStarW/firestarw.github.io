@@ -25,12 +25,19 @@ header {
 	 padding: 1px;
 
 }
+
+.spacer {
+    height: 10px;
+    line-height: 0;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
 .header-grid {
   	display: inline-grid;
 	/*justify-content: center;*/
 	margin: 0 45%;
 	/*grid-template-rows: auto auto; */
-  	grid-template-columns: auto auto;
+  	grid-template-columns:100px 900px;
 	/*grid-column-gap: 30%;*/
 	/*column-gap: 30%;*/
 	/*grid-auto-rows: 1fr;*/
@@ -65,7 +72,7 @@ header {
 #other {
 	display:inline;
 	float: right;
-	padding: 2px;
+	padding: 0px 2px;
 	font-size: 10px;
 	background-color:WhiteSmoke;
 }
