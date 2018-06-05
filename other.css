@@ -12,3 +12,11 @@ footer {
   	bottom: 10px;
     width: 99%;
 }
+
+#wrapper {
+    text-align: center;
+}
+
+#wrapper iframe {
+  	display: inline-block;
+}
