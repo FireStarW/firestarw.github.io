@@ -58,7 +58,7 @@ body {
 }
 
 #logo-div{
-	margin-left: 46%;
+	margin-left: 49%;
     margin-right: auto;
 }
 
@@ -135,9 +135,6 @@ body {
 }
 
 footer {
-	position: absolute;
-  	bottom: 0;
-    width: 99%;
 	color: WhiteSmoke;
 	text-align: center;
 	font-size: 10px;
