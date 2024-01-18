@@ -15,8 +15,14 @@ footer {
 
 #wrapper {
     text-align: center;
+    overflow: hidden;
+	resize: both;
+	border: dashed;
 }
 
 #wrapper iframe {
-  	display: inline-block;
+  height: 900px;
+  width: 840px;
+  overflow: auto;
+  border: none;
 }
